@@ -45,7 +45,7 @@ int main () {
 	    a[input] = (a[1]*a[4])/(a[2]-a[1]);
 	    printf("Значение R1 = %f\n", a[input]); 
 	    break;
-    case 4:
+    	case 4:
 	    printf("Выбран расчет R2.\nВведите значение Uo.\n");
 	    scanf("%a", &a[1]);
 	    printf("Введите значение Ui.\n");
@@ -55,7 +55,7 @@ int main () {
 	    a[input] = (a[2]*a[3]-a[1]*a[3])/(a[1]);
 	    printf("Значение R2 = %f\n", a[input]);
 	    break;
-    default:
+  	default:
 	    printf("Неккоректное значение \n");
 	}
 	printf("Конец программы.");
